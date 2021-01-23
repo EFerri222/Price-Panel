@@ -1,3 +1,4 @@
+/* ---CSS RESET BEGIN--- */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,4 +46,26 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+/* ---CSS RESET END--- */
+
+body {
+    background-color: #60A9FF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.panel {
+	background-color: white;
+	border-radius: 10px;
+	padding: 15px 25px;
+	width: 100%;
+	max-width: 960px;
 }
